@@ -11,8 +11,8 @@ Although Java has become inseparably linked with the online environment of the
 Internet, it is important to remember that Java is first and foremost a programming language.
 Computer language innovation and development occurs for two fundamental reasons:
 
-	* To adapt to changing environments and uses
-	* To implement refinements and improvements in the art of programming
+	- To adapt to changing environments and uses
+	- To implement refinements and improvements in the art of programming
 
 As you will see, the development of Java was driven by both elements in nearly equal
 measure.
