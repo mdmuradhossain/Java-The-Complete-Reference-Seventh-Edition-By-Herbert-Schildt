@@ -23,6 +23,5 @@ public class FileDemo {
 		p(f1.isAbsolute() ? "is absolute" : "is not absolute");
 		p("File last modified: " + f1.lastModified());
 		p("File Size: " + f1.length() + " Bytes");
-	
 	}
 }
