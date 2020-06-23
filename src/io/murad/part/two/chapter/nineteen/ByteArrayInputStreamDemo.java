@@ -1,9 +1,15 @@
 package io.murad.part.two.chapter.nineteen;
 
+import java.io.ByteArrayInputStream;
+
+//Demonstrate ByteArrayInputStream 
 public class ByteArrayInputStreamDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		String tmp = "abcdefghijklmnopqrstuvwxyz";
+		byte b[] = tmp.getBytes();
+		ByteArrayInputStream inputStream1 = new ByteArrayInputStream(b);
+		ByteArrayInputStream inputStream2 = new ByteArrayInputStream(b, 0, 3);
 
 	}
 
