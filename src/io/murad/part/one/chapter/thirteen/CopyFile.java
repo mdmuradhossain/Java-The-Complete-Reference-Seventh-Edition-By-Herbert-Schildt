@@ -18,6 +18,7 @@ import java.io.IOException;
 
 public class CopyFile {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 
 		int i;
