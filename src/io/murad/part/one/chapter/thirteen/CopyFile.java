@@ -56,5 +56,12 @@ public class CopyFile {
 		}
 		fin.close();
 		fout.close();
+		
+		// try-with-resources
+		/*
+		 * try(call object here to close file automatically){ 
+		 * } catch(){
+		 *  }
+		 */
 	}
 }
